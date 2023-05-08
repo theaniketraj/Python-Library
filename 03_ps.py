@@ -1,8 +1,4 @@
-# Label the program 02_ps with comments
+# Check the type of the variable assigned using input() function
 
-
-# Author : Harry Styles
-# Organization : Dawn FM
-
-import os # Importing the module
-print(os.listdir()) # Function to display all the directory content
+a = input("Enter something: ")
+print("The type of a is: ", type(a))
